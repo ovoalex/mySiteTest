@@ -2,14 +2,45 @@
 <html lang="en">
 <title> 2019/20 Lakers Roster</title>
 <meta charset="UTF-8">
-$data = file("custom.html");
+  
+<style>
+  img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
 
-<header><h1>
-   2019-20 Lakers Roster
-  </h1></header>  
-  <p class="custom">This whole sentence is red and Courier</p>
-  <p>Only the word <span class=.custom>test</span> is red and Courier.</p>
-<!-- Requirement Table -->
+table, td, th {
+  border: 3px groove; black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
+
+  td{
+    
+    color: #542583;
+  }
+body {
+  background-color: #FDB827;
+}
+  
+
+</style>
+
+  <h1>2019-20 Lakers Roster</h1>
+  <img src="https://gyazo.com/c8f8b23d6194afe0b5342caaf8aa964e.png" width="500" height="80">
+
+  
+<body>
+<!-- Requirement Table/Boarder -->
 <table>  
   <tr>
     <th>First</th>
@@ -54,6 +85,7 @@ $data = file("custom.html");
 </details>  
 <!-- Requirement Navigation -->  
 <nav><h6><a href="index.html">Back to 1st page</a></h6></nav>
+<nav><h6><a href="custom.html">test</a></h6></nav>
 
 </body>
 </html>
