@@ -1,0 +1,20 @@
+
+.monospace {font-family: "Lucida Console", Courier, monospace;}
+
+h3{
+  background-color: purple;
+  color: gold;
+}
+p{
+  text-indent: 50px
+}
+span{
+  font-size: 1em;
+  color:green;
+}
+figure{
+padding: 10px 10px 0px 10px;
+width: 100%;
+margin: -100px -350px 50px 0px;
+float: right;
+}

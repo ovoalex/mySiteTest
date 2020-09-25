@@ -1,0 +1,28 @@
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+table, td, th {
+  border: 3px groove; black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
+
+  td{
+    
+    color: #542583;
+  }
+body {
+  background-color: #FDB827;
+}
+  
