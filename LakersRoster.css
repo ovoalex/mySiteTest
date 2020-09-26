@@ -1,0 +1,47 @@
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+img {
+  position: absolute;
+  left: 500px;
+  top: 0px;
+  z-index: -1;
+}
+
+p{
+  clear: both;
+  color: purple;
+}
+table, td, th {
+  border: 2px dashed; 
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th { height: 50px;}
+
+td { color: black;}
+
+body {
+  background-color: #FDB827;
+}
