@@ -1,0 +1,35 @@
+h4.a {
+  visibility: visible;
+}
+  h3{
+    background-color: purple;
+    color: gold;
+  }
+  p{
+    text-indent: 50px
+  }
+ol{
+  
+}
+  span{
+    font-size: 1em;
+    color:green;
+      <a href="https://www.playstation.com/en-us/games/ghost-of-tsushima-ps4/" /a>
+  }
+  figure{
+  padding: 10px 10px 0px 10px;
+  width: 100%;
+  margin: -100px -350px 50px 0px;
+  float: right;
+  }
+
+div.overflowAuto {
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: orange;
+  text-indent: 50px;
+  width: 1000px;
+  height: 50px;
+  overflow: auto;
+}
+
+p.inLine {display: inline; color:red;}
